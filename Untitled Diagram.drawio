@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T22:22:29.725Z" agent="5.0 (X11)" etag="fcN_M1HoO9H6HiDeIG2D" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-11T22:35:23.609Z" agent="5.0 (X11)" etag="HcX9ldBjhCUHH6gNqT3t" version="13.7.5" type="github">
   <diagram id="7s7uIlQT8t8DrVzBEWPa" name="Page-1">
-    <mxGraphModel dx="1201" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1441" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,11 +249,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tHOMkFGFNWv0TJlAidd5-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="y0rD6Jp8shlzVAkSggqI-77" target="tHOMkFGFNWv0TJlAidd5-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="y0rD6Jp8shlzVAkSggqI-77" value="снимает" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="745" y="710" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="y0rD6Jp8shlzVAkSggqI-82" value="ФИО" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="916.63" y="850" width="103.37" height="45" as="geometry" />
+          <mxGeometry x="916.63" y="817.5" width="103.37" height="45" as="geometry" />
         </mxCell>
         <mxCell id="X2tVZwrmz8boklLUg7Sm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="y0rD6Jp8shlzVAkSggqI-83" target="y0rD6Jp8shlzVAkSggqI-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -302,7 +305,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tHOMkFGFNWv0TJlAidd5-10" value="сменяет" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHOMkFGFNWv0TJlAidd5-10" value="сменяет" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="725" y="1000" width="150" height="53.75" as="geometry" />
         </mxCell>
         <mxCell id="tHOMkFGFNWv0TJlAidd5-16" value="ФИО" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -312,7 +315,7 @@
           <mxGeometry x="925.88" y="190" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tHOMkFGFNWv0TJlAidd5-27" value="&lt;div&gt;телефон&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="916.63" y="910" width="103.37" height="50" as="geometry" />
+          <mxGeometry x="916.63" y="925" width="103.37" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tHOMkFGFNWv0TJlAidd5-38" value="время начала" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="600" width="120" height="60" as="geometry" />
@@ -345,6 +348,12 @@
         </mxCell>
         <mxCell id="tHOMkFGFNWv0TJlAidd5-89" value="id анятия" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="355" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOMkFGFNWv0TJlAidd5-92" value="email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="916.63" y="872.5" width="103.37" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOMkFGFNWv0TJlAidd5-93" value="время начала" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="715" width="103.37" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
