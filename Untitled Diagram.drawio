@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T23:30:55.121Z" agent="5.0 (X11)" etag="tFCB1GsVRqyKKT696Dce" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-11T23:44:57.508Z" agent="5.0 (X11)" etag="HDQmo0BmL_EbzQc20_g_" version="13.7.5" type="github">
   <diagram id="7s7uIlQT8t8DrVzBEWPa" name="Page-1">
-    <mxGraphModel dx="892" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1355" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,7 +351,7 @@
         <mxCell id="tHOMkFGFNWv0TJlAidd5-39" value="id учебной подгруппы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="410" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tHOMkFGFNWv0TJlAidd5-44" value="относится" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="tHOMkFGFNWv0TJlAidd5-44" value="относится к" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="620" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tHOMkFGFNWv0TJlAidd5-63" value="папка с заданием" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
