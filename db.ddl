@@ -37,7 +37,7 @@ CREATE TABLE deadline (
     id_deadline INT PRIMARY KEY,
     time_date DATETIME,
     link_to_folder_with_tasks VARCHAR(30),
-    time_date_of_setting DATETIME default getdate() #(МОЖНО ЧТО-НИБУДЬ ТАКОЕ СДЕЛАТЬ только со временем),
+    time_date_of_setting DATETIME #default getdate() (МОЖНО ЧТО-НИБУДЬ ТАКОЕ СДЕЛАТЬ только со временем),
     FOREIGN KEY (id_operator) REFERENCES operator(id_operator)
 );
 
