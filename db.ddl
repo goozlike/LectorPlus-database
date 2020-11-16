@@ -30,7 +30,7 @@ CREATE TABLE operator (
     id_operator INT PRIMARY KEY,
     name VARCHAR(50),
     email VARCHAR(30),
-    prone_number VARCHAR(20) 
+    phone_number VARCHAR(20) 
 );
 
 CREATE TABLE deadline (
