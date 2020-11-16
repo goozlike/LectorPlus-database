@@ -3,7 +3,7 @@ CREATE DATABASE PHARMNETWORK;
 CREATE TABLE class (
     id_class INT PRIMARY KEY,
     type VARCHAR(30),
-    folder_with_materials (????),
+    link_to_folder_with_materials VARCHAR(30),
     link_to_record VARCHAR(30)
 );
 
@@ -36,8 +36,8 @@ CREATE TABLE operator (
 CREATE TABLE deadline (
     id_deadline INT PRIMARY KEY,
     time_date DATETIME,
-    folder_with_tasks (???),
-    time_date_of_setting DATETIME default getdate() (МОЖНО ЧТО-НИБУДЬ ТАКОЕ СДЕЛАТЬ только со временем),
+    link_to_folder_with_tasks VARCHAR(30),
+    time_date_of_setting DATETIME default getdate() #(МОЖНО ЧТО-НИБУДЬ ТАКОЕ СДЕЛАТЬ только со временем),
     FOREIGN KEY (id_operator) REFERENCES operator(id_operator)
 );
 
@@ -47,8 +47,6 @@ CREATE TABLE announcement (
     FOREIGN KEY (id_operator) REFERENCES operator(id_operator)
 );
 
-
-Вообще хз надо ли это делать(
 
 
 CREATE TABLE class_study_subgroup (
@@ -65,7 +63,7 @@ CREATE TABLE class_operator (
     FOREIGN KEY (id_class) REFERENCES class(id_class),
     FOREIGN KEY (id_operator) REFERENCES operator(id_operator),
     PRIMARY KEY(id_class, id_operator),
-    priority INT (?)
+    priority INT #(?)
 );
 
 
