@@ -70,18 +70,18 @@ CREATE TABLE class_operator (
 CREATE TABLE study_subgroup_student (
     FOREIGN KEY (id_study_subgroup) REFERENCES study_subgroup(id_study_subgroup),
     FOREIGN KEY (id_student) REFERENCES student(id_student),
-    PRIMARY KEY(id_study_subgroup, id_class)
+    PRIMARY KEY(id_study_subgroup, id_student)
 );
 
 CREATE TABLE study_subgroup_announcement (
     FOREIGN KEY (id_study_subgroup) REFERENCES study_subgroup(id_study_subgroup),
-    FOREIGN KEY (id_announcement) REFERENCES class(id_announcement),
+    FOREIGN KEY (id_announcement) REFERENCES announcement(id_announcement),
     PRIMARY KEY(id_study_subgroup, id_announcement)
 );
 
 CREATE TABLE study_subgroup_deadline (
     FOREIGN KEY (id_study_subgroup) REFERENCES study_subgroup(id_study_subgroup),
-    FOREIGN KEY (id_deadline) REFERENCES class(id_deadline),
+    FOREIGN KEY (id_deadline) REFERENCES deadline(id_deadline),
     PRIMARY KEY(id_study_subgroup, id_deadline)
 );
 
