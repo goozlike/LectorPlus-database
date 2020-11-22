@@ -2,6 +2,7 @@ CREATE DATABASE LectorPLus;
 CREATE TABLE Classes (
     id_class INT PRIMARY KEY,
     type VARCHAR(30),
+    name VARCHAR(30),
     link_to_folder_with_materials VARCHAR(30),
     link_to_record VARCHAR(30)
 );
@@ -37,6 +38,7 @@ CREATE TABLE Operators (
 CREATE TABLE Deadlines (
     id_deadline INT PRIMARY KEY,
     time_date DATETIME,
+    name VARCHAR(50),
     link_to_folder_with_tasks VARCHAR(30),
     time_date_of_setting DATETIME,
     id_operator INT,
@@ -91,9 +93,9 @@ CREATE TABLE Groups_Ads (
 );
 
 CREATE TABLE Groups_Deadlines (
-    id_study_subgroup INT,
+    id_group INT,
     id_deadline INT, 
-    FOREIGN KEY (id_study_subgroup) REFERENCES Groups(id_group),
+    FOREIGN KEY (id_group) REFERENCES Groups(id_group),
     FOREIGN KEY (id_deadline) REFERENCES Deadlines(id_deadline),
-    CONSTRAINT PK_group_dedl PRIMARY KEY (id_study_subgroup, id_deadline)
+    CONSTRAINT PK_group_dedl PRIMARY KEY (id_group, id_deadline)
 );
